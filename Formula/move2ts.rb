@@ -27,6 +27,6 @@ class Move2ts < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/move2ts --version", 2)
+    assert_match "Generate TypeScript wrappers", shell_output("#{bin}/move2ts --help")
   end
 end
