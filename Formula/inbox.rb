@@ -1,24 +1,24 @@
 class Inbox < Formula
   desc "Run commands in a sandboxed filesystem environment"
   homepage "https://github.com/avbel/inbox"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/avbel/inbox/releases/download/v#{version}/inbox-macos-arm64.zip"
-      sha256 "2a990599baad2ed278847fa57e5b7593ca75cb2af2ca157d6fbc76d39153d2c1"
+      sha256 "8becdf4249981b1c8f94706cd9760e9f8b5e9fecfe77f45fa95b3c23be5c6c43"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/inbox/releases/download/v#{version}/inbox-linux-x64.tar.gz"
-      sha256 "cc87ff57d38ff5dc65c5ac2ea606241000b0ed3034ee5dae62f97ed2f4e4b70c"
+      sha256 "36c154061aa06f2ac84100101e1deb4b39294d08c723fb0e9360f430581bb8f7"
     end
     on_arm do
       url "https://github.com/avbel/inbox/releases/download/v#{version}/inbox-linux-arm64.tar.gz"
-      sha256 "70d21b8d8ab3f8ae9ae4676ae94e7578dd9fc919d3c08f24e8eec1e4dad2702f"
+      sha256 "ee349eea079f6191d37642f03150743b83306f04f7f00e9198aaed45db63aa7f"
     end
   end
 
