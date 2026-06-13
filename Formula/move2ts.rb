@@ -7,18 +7,18 @@ class Move2ts < Formula
   on_macos do
     on_arm do
       url "https://github.com/avbel/move2ts/releases/download/v#{version}/move2ts-macos-arm64.zip"
-      sha256 "92f45bce005c7f874bdddadb09f35b26b380b08f98eff985dd2a1bde13e27110"
+      sha256 "91b96e15178844e1288d706ff69ec3daed8cc3d6e4a27997c326e42b09b34844"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/move2ts/releases/download/v#{version}/move2ts-linux-x64.tar.gz"
-      sha256 "d2e842616d3d81042d2eee280f634d0bfed2c479ae304d756f6538900ce4c8ea"
+      sha256 "027038dd92cc1b5ad418b292fb266756ca7524160f3993a0898a139686e18cbc"
     end
     on_arm do
       url "https://github.com/avbel/move2ts/releases/download/v#{version}/move2ts-linux-arm64.tar.gz"
-      sha256 "405f3672583ce1e8047b93c73afefb0662f8749505f7b1ff532d06e442d7aecb"
+      sha256 "c20d6556668b772aa6c5367e5fa88f8329437f2bdaf45c28167fee7c48128457"
     end
   end
 
