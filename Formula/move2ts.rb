@@ -1,24 +1,24 @@
 class Move2ts < Formula
   desc "Generate type-safe TypeScript wrappers for Sui Move smart contracts"
   homepage "https://github.com/avbel/move2ts"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/avbel/move2ts/releases/download/v#{version}/move2ts-macos-arm64.zip"
-      sha256 "27b624910f50de974e0a71445b25ad3e01e62521160029dc61823aa783643840"
+      sha256 "0fb0425bb34a649b8041448f32af91b845101178cd6bbed9f59b7fd6e31d9d34"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/move2ts/releases/download/v#{version}/move2ts-linux-x64.tar.gz"
-      sha256 "a43a0eea87dc31ea9b1b6c3670f6043eacfbd01f30e141be3320f97fc0a5c43d"
+      sha256 "25fd21881baaee02a2315a1bd49772b66a7c5a5d4b80c31441e9380ddeed2162"
     end
     on_arm do
       url "https://github.com/avbel/move2ts/releases/download/v#{version}/move2ts-linux-arm64.tar.gz"
-      sha256 "00d62112ce75d81f722ef979ff00593f77a7f081c1a2dbea628cdb85101a5511"
+      sha256 "1f884ebaa56a87cff0d66523ac11effdeff5df63af78c5f73f1f5d3ff3285565"
     end
   end
 
