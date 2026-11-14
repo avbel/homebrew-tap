@@ -7,18 +7,18 @@ class AiSessionToMd < Formula
   on_macos do
     on_arm do
       url "https://github.com/avbel/ai-session-to-md/releases/download/v#{version}/ai-session-to-md-macos-arm64.tar.xz"
-      sha256 "de0f7abd5baaac6fbb4673b56d311bdb7bf784d519d6e9c19a41b397b0c6c5b7"
+      sha256 "fa23d7d673c5e30399766b2e1e37239511c662a66210fd98c269b78bc4f23b0d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/ai-session-to-md/releases/download/v#{version}/ai-session-to-md-linux-x64.tar.xz"
-      sha256 "ee0405fe5aab5f03b956ec9a4acf75a98813ca40324997acac0524b101a9c0ff"
+      sha256 "43efaf2423a094ccff1ee59296bd230ef49a4e4112c19d587de78cbae4857c4a"
     end
     on_arm do
       url "https://github.com/avbel/ai-session-to-md/releases/download/v#{version}/ai-session-to-md-linux-arm64.tar.xz"
-      sha256 "16bdc469bd15c4a32c85ae66614ca394a405f1d6bd6b4ae0bf5f38f94b6c461a"
+      sha256 "f4d057f319a317d631f5b42d41cd16139b64c91c58cfc3a3c72a87a73004591f"
     end
   end
 
