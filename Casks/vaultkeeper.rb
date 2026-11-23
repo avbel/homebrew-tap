@@ -1,6 +1,6 @@
 cask "vaultkeeper" do
-  version "0.1.15"
-  sha256 "b47f065f2c0a5237c7cc6279ab8cc1fc6f7fd650cdf97c4731df8318050017c3"
+  version "0.1.16"
+  sha256 "16c489783af137449af6e4bfa289c8922363ea0bd8081385d54881dd7f0c1392"
 
   url "https://github.com/avbel/vaultkeeper/releases/download/v#{version}/Vaultkeeper-v#{version}-arm64.app.zip"
   name "Vaultkeeper"
