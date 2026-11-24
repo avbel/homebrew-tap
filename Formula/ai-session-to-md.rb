@@ -1,24 +1,24 @@
 class AiSessionToMd < Formula
   desc "Summarize an AI coding-agent session into a Markdown handoff file"
   homepage "https://github.com/avbel/ai-session-to-md"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/avbel/ai-session-to-md/releases/download/v#{version}/ai-session-to-md-macos-arm64.tar.xz"
-      sha256 "082ca3cf8810851a93621e6ebbb6516412227449b318680bcc4d188cd74fbc2e"
+      sha256 "3627faf1403d46c4582705dec0f75eddfd1dff252260fb6c9e5aa27a6fa226d2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/ai-session-to-md/releases/download/v#{version}/ai-session-to-md-linux-x64.tar.xz"
-      sha256 "106ff380c75e8276b5dcde47e7c383aed90aab6f76558b4e23640d1a0e2e4dcc"
+      sha256 "23f345c4da2c3dbaf448ab0445aa9aa058b32d6a47b2719a826c643dbaa87d8d"
     end
     on_arm do
       url "https://github.com/avbel/ai-session-to-md/releases/download/v#{version}/ai-session-to-md-linux-arm64.tar.xz"
-      sha256 "1949b34eae00ee272f58dd1ec2e14960d0d52cc0ee7504c8a3e0ae02ea9722f1"
+      sha256 "8c8428fa971f6a5c7e2092de18c1e3d2c157f3a9fc546255c68c51a3b5352d3c"
     end
   end
 
