@@ -1,24 +1,24 @@
 class Yrem < Formula
   desc "Remote-only CLI and MCP server for yantrikdb-server"
   homepage "https://github.com/avbel/yrem"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/avbel/yrem/releases/download/v#{version}/yrem-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "d1d24f6b70d0973282e38d192c5aef886a4a7e8600c475d78aaa021369c4da75"
+      sha256 "7aa74ff3a4bef119af50f346d8bac1c195234f93628c710cd4eb9f67e63de35c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/yrem/releases/download/v#{version}/yrem-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a97df6513b5418c0bb2de592dd2b7338f3bff1f7cf12860f8d02928577a09e9e"
+      sha256 "1301bf8e7c4c836d435b9d8c21ae5c63f9cb373aaae1ba68356af803e0155bfc"
     end
     on_arm do
       url "https://github.com/avbel/yrem/releases/download/v#{version}/yrem-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b731d951b0447ee5b6a36ddf19edd891fd103e9674b67d2ff1116ed8b38a7521"
+      sha256 "23d66d319d0761d24ce22437c9122a38e6163d125d439c09568810d8f3dd2082"
     end
   end
 
