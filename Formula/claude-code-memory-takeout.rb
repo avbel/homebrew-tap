@@ -1,24 +1,24 @@
 class ClaudeCodeMemoryTakeout < Formula
   desc "Collect Claude Code project memory into one MEMORY.md"
   homepage "https://github.com/avbel/claude-code-memory-takeout"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/avbel/claude-code-memory-takeout/releases/download/v#{version}/claude-code-memory-takeout-macos-arm64.tar.xz"
-      sha256 "eac3f49f136dc2b4a9c8eb6215d2dcc2464cef5b511519270e2a65b723ae918c"
+      sha256 "de531cd54d2cf128d7ca2bc1c0079146e8b9c2287d58bb19370b4277d9690e25"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/avbel/claude-code-memory-takeout/releases/download/v#{version}/claude-code-memory-takeout-linux-x64.tar.xz"
-      sha256 "eb24fc2e502f6d81846249717e9dfa8d202f845bd8c292f777e9d5f1dd34bc11"
+      sha256 "fc6b90a85875700331541835add3e493bb1d2112d45d8e0ad8c601ad3603053f"
     end
     on_arm do
       url "https://github.com/avbel/claude-code-memory-takeout/releases/download/v#{version}/claude-code-memory-takeout-linux-arm64.tar.xz"
-      sha256 "f753c2689441f4a518ca4136ffec5e9f85b70268e67e54e9f79d2eba5194b66f"
+      sha256 "0dacb62e394434a084ab563d43c5442d825f0f91186d6bcaec06ef1d18c03e27"
     end
   end
 
