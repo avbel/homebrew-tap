@@ -1,7 +1,7 @@
 class Vaultkeeper < Formula
   desc "Bitwarden-compatible password manager for the desktop"
   homepage "https://github.com/avbel/vaultkeeper"
-  version "0.1.17"
+  version "0.1.18"
   license "GPL-3.0-only"
 
   depends_on :linux
@@ -9,11 +9,11 @@ class Vaultkeeper < Formula
   on_linux do
     on_intel do
       url "https://github.com/avbel/vaultkeeper/releases/download/v#{version}/vaultkeeper-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2e52ab920f52e1c7a5dc4ab24566da35d5a907da28126c334e6ed75be9f1ea61"
+      sha256 "8adf5f16b00de42bb33d640e9da7f23298341576ef29e49bcda54a239937a666"
     end
     on_arm do
       url "https://github.com/avbel/vaultkeeper/releases/download/v#{version}/vaultkeeper-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f2573bb6e124d2d12a320cd46e63ca620aaa9da3481273ff5f291ff2217e365c"
+      sha256 "df72b6f6bbcd880cb6fdbf02967f71d7f99d7f2f2db7677a15cb4c60faa0f680"
     end
   end
 
